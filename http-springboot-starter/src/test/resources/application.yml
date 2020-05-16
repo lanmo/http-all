@@ -1,0 +1,16 @@
+http:
+  client:
+    clientConfigs:
+      -
+        instanceName: http-test
+        clientName: httpClient
+        maxIdleConnections: 300
+        keepAliveDuration: 30000
+        connectTimeout: 100
+        readTimeout: 100
+        writeTimeout: 100
+        maxRetry: 2
+        traceTime: true
+        mdcKeys:
+          - traceId
+

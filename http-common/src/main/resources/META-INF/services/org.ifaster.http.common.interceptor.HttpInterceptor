@@ -1,0 +1,2 @@
+org.ifaster.http.common.interceptor.LogTraceInterceptor
+org.ifaster.http.common.interceptor.RetryInterceptor
